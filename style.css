@@ -109,8 +109,14 @@ nav ul li a:hover::after{
 .about1{
     width: 100%;
     text-align: center;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0 50px;
 }
 .aboutme-image{
+    padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
     color: #DDDDDD;
@@ -405,6 +411,7 @@ form input, form textarea{
         border-radius: 10px;
         display: flex;
         justify-content: center;
+        position: absolute;
     }#service-body{
         width: 100%;
         height: 1100px;
@@ -478,6 +485,21 @@ form input, form textarea{
         flex-wrap: wrap;
         left: 5%;
         top: 50%;
-    }
+    }#container{
+        display: flex;
+        justify-content: center;
     
+    }.aboutme-image{
+        padding: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        color: #DDDDDD;
+        height: 500px;
+        justify-content: space-between;
+    }
+    .aboutme1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 250px 10px 10px;
+    }
 }
